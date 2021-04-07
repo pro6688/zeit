@@ -21,8 +21,8 @@ jobs:
     runs-on: ubuntu-latest
     web_page = "https://xyzpan.glitch.me
       run: |
-    webbrowser.open(web_page)
-  time.sleep(604800)
+        webbrowser.open(web_page)
+        time.sleep(604800)
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
